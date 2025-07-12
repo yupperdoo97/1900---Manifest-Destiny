@@ -60,7 +60,7 @@ campaignTrail_temp.multiple_endings=true
 //aa = all final overall results data
 //quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
-if (quickstats[1] <= 223 && quickstats[0] >= 223) {
+if (quickstats[1] <= 223 && quickstats[0] <= 223) {
 return "<h3>Wow, no candidate has won a majority in the electoral college!</h3><p>In a result echoing the contest of 1824, no candidate has secured a majority of electoral votes. The decision now falls to the House of Representatives, where each state holds one vote. The stakes could not be higher.</p><p>Your campaign electrified the nation - drawing support from the heartland, rallying reformers and anti-imperialists, and unsettling the Republican establishment. But McKinley’s strength in the Northeast and among the business class held firm.</p><p>Republicans control more state delegations than do Democrats, making McKinley’s win quite likely. Yet even in the face of this impasse, your message has transformed the political landscape. A growing number of Americans now question the path of empire, the grip of monopoly, and the corruption of machine politics.</p><p>Should you fall short in the House, your campaign may still shape the future. Should you prevail, the task of governing such a fractured nation will be daunting - but not impossible. Either way, you have changed the terms of the debate. What happens next is in the hands of history - and your allies in Congress.</p>"
     if (used != true) {
         setInterval(function () {
